@@ -21,4 +21,4 @@ function firstUniqChar(s: string): number {
 console.log(firstUniqChar("leetcode"));
 console.log(firstUniqChar("loveleetcode"));
 console.log(firstUniqChar("aabb"));
- console.log(firstUniqChar("dddccdbba"));
+console.log(firstUniqChar("dddccdbba"));

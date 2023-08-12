@@ -56,3 +56,7 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
     addNum(l1, l2, result);
     return result;
 };
+
+const l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
+const l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
+console.log(addTwoNumbers(l1, l2)); // 7 -> 0 -> 8
